@@ -5,7 +5,15 @@
   flex-direction: column;
 }
 
-.card-container {
+.techcards h2 {
+  margin: 0;
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
   max-width: 1140px;
   margin: auto;
   display: grid;
@@ -35,8 +43,33 @@
   font-size: 2rem;
 }
 
+.aboutmecontainer {
+  max-width: 1140px;
+  margin: auto;
+  gap: 17rem;
+  place-items: center;
+}
+
+.aboutme {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 9rem;
+  place-items: center;
+  gap: 2rem;
+}
+
+.aboutme p {
+  margin: 0;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.aboutme-pic {
+  width: 82%;
+}
+
 @media screen and (max-width: 740px) {
-  .card-container {
+  .container {
     max-width: 90%;
     margin: auto;
     grid-template-columns: 1fr;
@@ -46,5 +79,10 @@
 
   .card:nth-child(4) {
     grid-column: initial;
+  }
+
+  .aboutme {
+    grid-template-columns: 1fr;
+    place-items: center;
   }
 }

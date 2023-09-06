@@ -2,10 +2,30 @@ import React from "react";
 import "./TechCardsStyles.css";
 import { Link } from "react-router-dom";
 import { FaReact } from "react-icons/fa";
+import AboutMePic from "../assets/userprofile2.png";
 function TechCards() {
   return (
     <div className="techcards">
-      <div className="card-container">
+      <div className="aboutmecontainer">
+        <div className="aboutme">
+          <img className="aboutme-pic" alt="aboutprofile" src={AboutMePic} />
+          <p>
+            I am a fast learner, a self-taught person who always enjoys getting
+            into new challenges. I have developed a high sense of commitment and
+            quality in every project I have been working on. Now, I am a part of
+            the Software Development Bootcamp by Core Code io and my main goal
+            is to become a well-experienced Software Developer through constant
+            learning and keeping up to date with the last technologies to
+            deliver effective web platforms and applications for all kinds of
+            the social and business environment. I am always self-motivated to
+            experience new challenges that make me grow personally and
+            professionally.
+          </p>
+        </div>
+      </div>
+      <h2>Technologies</h2>
+
+      <div className="container">
         <div className="card">
           <h3 className="card-title">JavaScript</h3>
           <span className="bar"></span>
