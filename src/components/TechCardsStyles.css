@@ -1,0 +1,50 @@
+.techcards {
+  width: 100%;
+  padding: 6rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 17rem;
+  place-items: center;
+  text-align: center;
+}
+
+.card .card-icon {
+  height: 20rem;
+  width: 20rem;
+}
+
+.card:nth-child(4) {
+  grid-column: 1/4;
+}
+
+.card-title {
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.techcards .btn {
+  margin: 5rem auto;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 740px) {
+  .card-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 4rem;
+  }
+
+  .card:nth-child(4) {
+    grid-column: initial;
+  }
+}
