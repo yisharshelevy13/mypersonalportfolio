@@ -35,9 +35,8 @@ function Footer() {
           <p>
             I am a fast learner, a self-taught person who always enjoys getting
             into new challenges. I have developed a high sense of commitment and
-            quality in every project I have been working on. Now, I am a part of
-            the Software Development Bootcamp by Core Code io and my main goal
-            is to become a well-experienced Software Developer through constant
+            quality in every project I have been working on. My main goal is to
+            become a well-experienced Software Developer through constant
             learning and keeping up to date with the last technologies to
             deliver effective web platforms and applications for all kinds of
             the social and business environment. I am always self-motivated to
